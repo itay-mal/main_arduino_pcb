@@ -1,0 +1,4 @@
+Remove Pin=*-13 From Net=Arduino5vOut
+Change Component Footprint: Designator=* Old Footprint=Model Name New Footprint=I2C_CAN
+Change Component Comment: Designator=* Old Comment=I2C_CAN New Comment=Comment
+Change Component Designator: OldDesignator=* NewDesignator=I2C CAN_MODULE

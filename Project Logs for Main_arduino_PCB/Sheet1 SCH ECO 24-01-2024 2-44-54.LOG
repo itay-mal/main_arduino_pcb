@@ -1,0 +1,24 @@
+Remove Pin=Back Encoders-1 From Net=encBL
+Remove Pin=Back Encoders-2 From Net=Arduino5vOut
+Remove Pin=Back Encoders-6 From Net=encBR
+Remove Pin=counter/direct switch-1 From Net=encFL
+Remove Pin=counter/direct switch-2 From Net=encFL
+Remove Pin=counter/direct switch-3 From Net=encFR
+Remove Pin=counter/direct switch-4 From Net=encFR
+Remove Pin=counter/direct switch-5 From Net=encBL
+Remove Pin=counter/direct switch-6 From Net=encBL
+Remove Pin=counter/direct switch-7 From Net=encBR
+Remove Pin=counter/direct switch-8 From Net=encBR
+Remove Pin=Front Encoders-1 From Net=encFL
+Remove Pin=Front Encoders-2 From Net=Arduino5vOut
+Remove Pin=Front Encoders-6 From Net=encFR
+Remove Pin=I2C CAN_MODULE-13 From Net=Arduino5vOut
+Remove Pin=Main Arduino-20 From Net=TS
+Remove Pin=Main Arduino-25 From Net=SDC
+Add Pin To Net: Pin=counterBLA-1 Old Net=encBL_A New Net=encBL
+Add Pin To Net: Pin=counterBRA-1 Old Net=encBR_A New Net=encBR
+Add Pin To Net: Pin=counterFLA-1 Old Net=encFL_A New Net=encFL
+Add Pin To Net: Pin=counterFRA-1 Old Net=encFR_A New Net=encFR
+Change Pin Designator/Name:  Old Designator=counterBRA-1 Old Name=CKB New Designator =R0(1) New Name=2
+Change Pin Designator/Name:  Old Designator=counterFLA-1 Old Name=CKB New Designator =R0(1) New Name=2
+Change Pin Designator/Name:  Old Designator=counterFRA-1 Old Name=CKB New Designator =R0(1) New Name=2

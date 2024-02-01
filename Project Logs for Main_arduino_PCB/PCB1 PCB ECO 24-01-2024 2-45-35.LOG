@@ -1,0 +1,114 @@
+Removed Pin From Net: NetName=encBL Pin=counterBL-1
+Removed Pin From Net: NetName=encBR Pin=counterBR-1
+Removed Pin From Net: NetName=encFL Pin=counterFL-1
+Removed Pin From Net: NetName=encFR Pin=counterFR-1
+Added Pin To Net: NetName=encBL Pin=Back Encoders-1
+Added Pin To Net: NetName=Arduino5vOut Pin=Back Encoders-2
+Added Pin To Net: NetName=encBR Pin=Back Encoders-6
+Added Pin To Net: NetName=encFL Pin=counter/direct switch-1
+Added Pin To Net: NetName=encFL Pin=counter/direct switch-2
+Added Pin To Net: NetName=encFR Pin=counter/direct switch-3
+Added Pin To Net: NetName=encFR Pin=counter/direct switch-4
+Added Pin To Net: NetName=encBL Pin=counter/direct switch-5
+Added Pin To Net: NetName=encBL Pin=counter/direct switch-6
+Added Pin To Net: NetName=encBR Pin=counter/direct switch-7
+Added Pin To Net: NetName=encBR Pin=counter/direct switch-8
+Added Pin To Net: NetName=encBLrst Pin=counterBR-2
+Added Pin To Net: NetName=encBLrst Pin=counterBR-3
+Added Pin To Net: NetName=encBLrst Pin=counterFL-2
+Added Pin To Net: NetName=encBLrst Pin=counterFL-3
+Added Pin To Net: NetName=encBLrst Pin=counterFR-2
+Added Pin To Net: NetName=encBLrst Pin=counterFR-3
+Added Pin To Net: NetName=encFL Pin=Front Encoders-1
+Added Pin To Net: NetName=Arduino5vOut Pin=Front Encoders-2
+Added Pin To Net: NetName=encFR Pin=Front Encoders-6
+Add Pin To Net: Unknown Pin: Pin I2C CAN_MODULE-10
+Add Pin To Net: Unknown Pin: Pin I2C CAN_MODULE-13
+Added Pin To Net: NetName=encBLrst Pin=Main Arduino-19
+Added Pin To Net: NetName=TS Pin=Main Arduino-20
+Added Pin To Net: NetName=SDC Pin=Main Arduino-25
+Added Pin To Net: NetName=GND Pin=MP3 Player-12
+Added Pin To Net: NetName=GND Pin=MP3 Player-13
+Added Pin To Net: NetName=GND Pin=MP3 Player-14
+Added Pin To Net: NetName=GND Pin=MP3 Player-15
+Added Pin To Net: NetName=GND Pin=MP3 Player-16
+Added Pin To Net: NetName=CANH Pin=CAN BUS CONN-1
+Added Net: Name=CANH
+Added Pin To Net: NetName=CANL Pin=CAN BUS CONN-2
+Added Net: Name=CANL
+Added Pin To Net: NetName=encBL_A Pin=counter/direct switch-12
+Added Pin To Net: NetName=encBL_A Pin=counterBL-1
+Added Net: Name=encBL_A
+Added Pin To Net: NetName=encBL_B Pin=counter/direct switch-11
+Added Pin To Net: NetName=encBL_B Pin=Main Arduino-7
+Added Net: Name=encBL_B
+Added Pin To Net: NetName=encBL_Q0 Pin=counterBL-9
+Added Pin To Net: NetName=encBL_Q0 Pin=Main Arduino-13
+Added Net: Name=encBL_Q0
+Added Pin To Net: NetName=encBL_Q1 Pin=counterBL-8
+Added Pin To Net: NetName=encBL_Q1 Pin=Main Arduino-14
+Added Net: Name=encBL_Q1
+Added Pin To Net: NetName=encBL_Q2 Pin=counterBL-11
+Added Net: Name=encBL_Q2
+Added Pin To Net: NetName=encBR_A Pin=counter/direct switch-10
+Added Pin To Net: NetName=encBR_A Pin=counterBR-1
+Added Net: Name=encBR_A
+Added Pin To Net: NetName=encBR_B Pin=counter/direct switch-9
+Added Pin To Net: NetName=encBR_B Pin=Main Arduino-8
+Added Net: Name=encBR_B
+Added Pin To Net: NetName=encBR_Q0 Pin=counterBR-9
+Added Pin To Net: NetName=encBR_Q0 Pin=Main Arduino-15
+Added Net: Name=encBR_Q0
+Added Pin To Net: NetName=encBR_Q1 Pin=counterBR-8
+Added Pin To Net: NetName=encBR_Q1 Pin=Main Arduino-16
+Added Net: Name=encBR_Q1
+Added Pin To Net: NetName=encBR_Q2 Pin=counterBR-11
+Added Net: Name=encBR_Q2
+Added Pin To Net: NetName=encFL_A Pin=counter/direct switch-16
+Added Pin To Net: NetName=encFL_A Pin=counterFL-1
+Added Net: Name=encFL_A
+Added Pin To Net: NetName=encFL_B Pin=counter/direct switch-15
+Added Pin To Net: NetName=encFL_B Pin=Main Arduino-5
+Added Net: Name=encFL_B
+Added Pin To Net: NetName=encFL_Q0 Pin=counterFL-9
+Added Pin To Net: NetName=encFL_Q0 Pin=Main Arduino-9
+Added Net: Name=encFL_Q0
+Added Pin To Net: NetName=encFL_Q1 Pin=counterFL-8
+Added Pin To Net: NetName=encFL_Q1 Pin=Main Arduino-10
+Added Net: Name=encFL_Q1
+Added Pin To Net: NetName=encFL_Q2 Pin=counterFL-11
+Added Net: Name=encFL_Q2
+Added Pin To Net: NetName=encFR_A Pin=counter/direct switch-14
+Added Pin To Net: NetName=encFR_A Pin=counterFR-1
+Added Net: Name=encFR_A
+Added Pin To Net: NetName=encFR_B Pin=counter/direct switch-13
+Added Pin To Net: NetName=encFR_B Pin=Main Arduino-6
+Added Net: Name=encFR_B
+Added Pin To Net: NetName=encFR_Q0 Pin=counterFR-9
+Added Pin To Net: NetName=encFR_Q0 Pin=Main Arduino-11
+Added Net: Name=encFR_Q0
+Added Pin To Net: NetName=encFR_Q1 Pin=counterFR-8
+Added Pin To Net: NetName=encFR_Q1 Pin=Main Arduino-12
+Added Net: Name=encFR_Q1
+Added Pin To Net: NetName=encFR_Q2 Pin=counterFR-11
+Added Net: Name=encFR_Q2
+Added Pin To Net: NetName=pressure_sensor0 Pin=Front Encoders-7
+Added Pin To Net: NetName=pressure_sensor0 Pin=Main Arduino-21
+Added Net: Name=pressure_sensor0
+Added Pin To Net: NetName=pressure_sensor1 Pin=Front Encoders-3
+Added Pin To Net: NetName=pressure_sensor1 Pin=Main Arduino-22
+Added Net: Name=pressure_sensor1
+Added Pin To Net: NetName=R2D_BUTTON Pin=Front Encoders-9
+Added Pin To Net: NetName=R2D_BUTTON Pin=Main Arduino-26
+Added Net: Name=R2D_BUTTON
+Added Pin To Net: NetName=SCL Pin=Main Arduino-24
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA Pin=Main Arduino-23
+Added Net: Name=SDA
+Added Pin To Net: NetName=SPK1 Pin=Front Encoders-8
+Added Pin To Net: NetName=SPK1 Pin=MP3 Player-6
+Added Net: Name=SPK1
+Added Pin To Net: NetName=SPK2 Pin=Front Encoders-4
+Added Pin To Net: NetName=SPK2 Pin=MP3 Player-8
+Added Net: Name=SPK2
+Added Member To Class: ClassName=Sheet1 Member=Component I2C CAN_MODULE Comment

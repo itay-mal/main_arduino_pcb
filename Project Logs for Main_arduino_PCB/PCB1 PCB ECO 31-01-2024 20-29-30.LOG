@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=Arduino5vOut Pin=I2C CAN_MODULE-5V
+Removed Pin From Net: NetName=CANH Pin=I2C CAN_MODULE-CANH
+Removed Pin From Net: NetName=CANL Pin=I2C CAN_MODULE-CANL
+Removed Pin From Net: NetName=GND Pin=I2C CAN_MODULE-GND
+Removed Pin From Net: NetName=SCL Pin=I2C CAN_MODULE-RX
+Removed Pin From Net: NetName=SDA Pin=I2C CAN_MODULE-TX
+Removed Pin From Net: NetName=encFL_B Pin=Main Arduino-5
+Removed Pin From Net: NetName=encBLrst Pin=Main Arduino-19
+Add Pin To Net: Unknown Pin: Pin I2C CAN_MODULE-10
+Add Pin To Net: Unknown Pin: Pin I2C CAN_MODULE-11
+Add Pin To Net: Unknown Pin: Pin I2C CAN_MODULE-12
+Add Pin To Net: Unknown Pin: Pin I2C CAN_MODULE-13
+Add Pin To Net: Unknown Pin: Pin I2C CAN_MODULE-19
+Add Pin To Net: Unknown Pin: Pin I2C CAN_MODULE-21
+Added Pin To Net: NetName=encBLrst Pin=Main Arduino-5
+Added Pin To Net: NetName=encFL_B Pin=Main Arduino-19

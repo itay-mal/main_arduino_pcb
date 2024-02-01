@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=CAN_I2C_MISO Pin=CAN BUS BOARD-2
+Added Pin To Net: NetName=CAN_I2C_MISO Pin=Main Arduino-15
+Added Net: Name=CAN_I2C_MISO
+Added Pin To Net: NetName=CAN_I2C_MOSI Pin=CAN BUS BOARD-3
+Added Pin To Net: NetName=CAN_I2C_MOSI Pin=Main Arduino-14
+Added Net: Name=CAN_I2C_MOSI
+Added Pin To Net: NetName=CAN_I2C_SCK Pin=CAN BUS BOARD-4
+Added Pin To Net: NetName=CAN_I2C_SCK Pin=Main Arduino-16
+Added Net: Name=CAN_I2C_SCK
