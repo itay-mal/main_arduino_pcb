@@ -1,47 +1,87 @@
 [
-CAN BUS BOARD
-62000411121
-Comment
+I2C_CAN
+I2C_CAN-Footprint-1
+I2C_CAN
 
 
 
 ]
 [
-counterBL
-N0014A
-Comment
+R7
+RESC1609X55X30ML15T15
+ERJ-3EKF1200V
 
 
 
 ]
 [
-counterFR
-N0014A
-Comment
+R6
+RESC1609X55X30ML15T15
+ERJ-3EKF1200V
 
 
 
 ]
 [
-counterBR
-N0014A
-Comment
+R5
+RESC1609X55X30ML15T15
+ERJ-3EKF1200V
 
 
 
 ]
 [
-counterFL
-N0014A
-Comment
+R4
+RESC1609X55X30ML15T15
+ERJ-3EKF1200V
 
 
 
 ]
 [
-counter/direct switch
-416131160808
-Comment
+R3
+RESC1609X55X30ML15T15
+ERJ-3EKF1200V
+
+
+
+]
+[
+R2
+RESC1609X55X30ML15T15
+ERJ-3EKF1200V
+
+
+
+]
+[
+R1
+RESC1609X55X30ML15T15
+ERJ-3EKF1200V
+
+
+
+]
+[
+R0
+RESC1609X55X30ML15T15
+ERJ-3EKF1200V
+
+
+
+]
+[
+ENC_Rx_FWD
+SOIC127P600X175-16N
+MXL83411E-ADA-R
+
+
+
+]
+[
+ENC_Rx_BCK
+SOIC127P600X175-16N
+MXL83411E-ADA-R
 
 
 
@@ -49,7 +89,7 @@ Comment
 [
 CAN BUS CONN
 FP-1440054-MFG
-Comment
+1440054
 
 
 
@@ -57,7 +97,7 @@ Comment
 [
 Board2Board
 MOLEX_430451602
-Comment
+430451602
 
 
 
@@ -65,7 +105,7 @@ Comment
 [
 Misc Sigs
 618009231321
-Comment
+618009231321
 
 
 
@@ -73,7 +113,7 @@ Comment
 [
 Front Encoders
 618009231321
-Comment
+618009231321
 
 
 
@@ -81,7 +121,7 @@ Comment
 [
 Back Encoders
 618009231321
-Comment
+618009231321
 
 
 
@@ -89,7 +129,7 @@ Comment
 [
 MP3 Player
 MODULE_DFR0299
-Comment
+DFR0299
 
 
 
@@ -97,8 +137,272 @@ Comment
 [
 Main Arduino
 FP-A000005-MFG
-Comment
+A000005
 
 
 
 ]
+(
+12V
+Board2Board-1
+Main Arduino-28
+Main Arduino-3
+Main Arduino-30
+)
+(
+Arduino5vOut
+Back Encoders-5
+ENC_Rx_BCK-16
+ENC_Rx_BCK-4
+ENC_Rx_FWD-16
+ENC_Rx_FWD-4
+Front Encoders-5
+I2C_CAN-5V
+Main Arduino-27
+MP3 Player-1
+)
+(
+CAN_H
+CAN BUS CONN-2
+I2C_CAN-CANH
+)
+(
+CAN_L
+CAN BUS CONN-1
+I2C_CAN-CANL
+)
+(
+DRS_BUTTON
+Main Arduino-15
+Misc Sigs-7
+)
+(
+GND
+Back Encoders-M2
+CAN BUS CONN-6
+ENC_Rx_BCK-12
+I2C_CAN-GND
+Misc Sigs-M1
+Misc Sigs-M2
+MP3 Player-10
+MP3 Player-12
+MP3 Player-7
+)
+(
+GND
+MP3 Player-10
+MP3 Player-12
+MP3 Player-13
+MP3 Player-14
+MP3 Player-15
+)
+(
+GND
+Back Encoders-M1
+ENC_Rx_BCK-8
+ENC_Rx_FWD-12
+ENC_Rx_FWD-8
+Front Encoders-M1
+Front Encoders-M2
+Main Arduino-29
+Main Arduino-4
+MP3 Player-15
+MP3 Player-16
+)
+(
+GND
+MP3 Player-10
+MP3 Player-12
+MP3 Player-13
+)
+(
+MP3RX
+Main Arduino-2
+MP3 Player-3
+)
+(
+MP3TX
+Main Arduino-1
+MP3 Player-2
+)
+(
+R2D_BUTTON
+Main Arduino-14
+Misc Sigs-5
+)
+(
+SCL
+I2C_CAN-RX
+Main Arduino-24
+)
+(
+SDA
+I2C_CAN-TX
+Main Arduino-23
+)
+(
+SDC
+Board2Board-3
+Main Arduino-25
+)
+(
+SPK1
+Misc Sigs-1
+MP3 Player-6
+)
+(
+SPK2
+Misc Sigs-6
+MP3 Player-8
+)
+(
+TS
+Board2Board-2
+Main Arduino-13
+)
+(
+encBL_A
+ENC_Rx_BCK-13
+Main Arduino-11
+)
+(
+encBL_A_+
+Back Encoders-2
+ENC_Rx_BCK-14
+R6-1
+)
+(
+encBL_A_-
+Back Encoders-7
+ENC_Rx_BCK-15
+R6-2
+)
+(
+encBL_Z
+ENC_Rx_BCK-3
+Main Arduino-7
+)
+(
+encBL_Z_+
+Back Encoders-1
+ENC_Rx_BCK-2
+R4-1
+)
+(
+encBL_Z_-
+Back Encoders-6
+ENC_Rx_BCK-1
+R4-2
+)
+(
+encBR_A
+ENC_Rx_BCK-11
+Main Arduino-12
+)
+(
+encBR_A_+
+Back Encoders-4
+ENC_Rx_BCK-10
+R7-1
+)
+(
+encBR_A_-
+Back Encoders-9
+ENC_Rx_BCK-9
+R7-2
+)
+(
+encBR_Z
+ENC_Rx_BCK-5
+Main Arduino-8
+)
+(
+encBR_Z_+
+Back Encoders-3
+ENC_Rx_BCK-6
+R5-1
+)
+(
+encBR_Z_-
+Back Encoders-8
+ENC_Rx_BCK-7
+R5-2
+)
+(
+encFL_A
+ENC_Rx_FWD-13
+Main Arduino-9
+)
+(
+encFL_A_+
+ENC_Rx_FWD-14
+Front Encoders-2
+R2-1
+)
+(
+encFL_A_-
+ENC_Rx_FWD-15
+Front Encoders-7
+R2-2
+)
+(
+encFL_Z
+ENC_Rx_FWD-3
+Main Arduino-5
+)
+(
+encFL_Z_+
+ENC_Rx_FWD-2
+Front Encoders-1
+R0-1
+)
+(
+encFL_Z_-
+ENC_Rx_FWD-1
+Front Encoders-6
+R0-2
+)
+(
+encFR_A
+ENC_Rx_FWD-11
+Main Arduino-10
+)
+(
+encFR_A_+
+ENC_Rx_FWD-10
+Front Encoders-4
+R3-1
+)
+(
+encFR_A_-
+ENC_Rx_FWD-9
+Front Encoders-9
+R3-2
+)
+(
+encFR_Z
+ENC_Rx_FWD-5
+Main Arduino-6
+)
+(
+encFR_Z_+
+ENC_Rx_FWD-6
+Front Encoders-3
+R1-1
+)
+(
+encFR_Z_-
+ENC_Rx_FWD-7
+Front Encoders-8
+R1-2
+)
+(
+pressure_sensor0
+Main Arduino-21
+Misc Sigs-8
+)
+(
+pressure_sensor1
+Main Arduino-22
+Misc Sigs-4
+)
